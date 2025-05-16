@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          template: terminal
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_topics: yes
           plugin_topics_limit: 0
