@@ -20,3 +20,4 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           plugin_lines: yes
+          plugin_languages: yes
