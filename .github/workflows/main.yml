@@ -18,5 +18,6 @@ jobs:
         with:
           template: terminal
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, metadata
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
           plugin_lines: yes
