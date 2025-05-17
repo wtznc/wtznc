@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          template: terminal
+          template: markdown
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           plugin_lines: yes
