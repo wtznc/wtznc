@@ -18,6 +18,5 @@ jobs:
         with:
           template: terminal
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
+          base: header, metadata
+          plugin_lines: yes
