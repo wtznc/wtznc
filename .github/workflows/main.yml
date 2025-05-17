@@ -24,7 +24,3 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: jupyter notebook
           plugin_languages_details: lines, bytes-size
-      - uses: p4p1/tryhackme-badge-workflow@1.0.0
-        with:
-          username: "wtznc"
-          GITHUB_TOKEN: ${{secrets.METRICS_TOKEN}}
