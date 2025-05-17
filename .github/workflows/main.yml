@@ -19,8 +19,4 @@ jobs:
           template: terminal
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
-          base_indepth: yes
           plugin_lines: yes
-          plugin_achievements: yes
-          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
